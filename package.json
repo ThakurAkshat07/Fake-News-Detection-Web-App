@@ -1,0 +1,19 @@
+{
+  "name": "fake-news-detection-web-app",
+  "version": "1.0.0",
+  "description": "This is a Web App for our Fake News Detection Model",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "client": "npm start --prefix ./client",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \" npm run client \" \" npm run server \""
+  },
+  "author": "Akshat_Thakur Jagmeet_Singh",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2"
+  }
+}
