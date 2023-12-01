@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(221, 219, 219);
+}
+
+.newsArea{
+    width: 80%;
+    padding-top: 150px;
+    text-align: center;
+    height: 100vh;
+}
+
+.message{
+    font-size: 4rem;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.newsArea textarea{
+    min-height: 60px;
+    margin: 20px 0;
+    padding: 5px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.newsArea button{
+    border: 0;
+    height: 50px;
+    width: 300px;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.newsArea button:hover{
+    background-color: white;
+    color: green;
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+}
+.history{
+    width: 20%;
+}
