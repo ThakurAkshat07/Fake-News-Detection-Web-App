@@ -11,5 +11,5 @@ const dirName = path.dirname(fileName);
 app.use(express.json());
 app.use("/predict", predictRoute);
 app.listen(5000, (req, res) => {
-  console.log("App is listening on the Port number: 5000");
+  console.log("App is listening on the Port number: 6000");
 });
